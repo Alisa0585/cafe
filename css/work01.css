@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.center{
+	width: 1170px;
+	margin: auto;
+	margin-top: 30px;
+}
+.main{
+	width: 1160px;
+	/*height: 215px;*/
+	border: 1px solid #d0e4c2;
+	margin: auto;
+	
+}
+.min{
+	width: 76px;
+	height: 14px;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-image: url(../img/iconlist_1.png);
+	background-repeat: no-repeat;
+	background-position-x: -184px ;
+	background-position-y: -240px;
+	cursor: pointer;
+}
+.min:hover{
+	background-position: -109px -240px;
+}
+.contain{
+	width: 1137px;
+	border-top: 1px solid #D0E4C2;
+	margin: auto;
+	
+	
+}
+.contain1_1{
+	width: 96px;
+	height: 32px;
+	background: #fdedd2;
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 12px;
+}
+.contain1_1>span{
+	font-weight: bold;
+}
+.contain2{
+	margin: 15px 0;
+}
+.contain3{
+	margin: 15px 0 26px;
+}
+.contain3>button{
+	height: 30px;
+	border-radius: 4px;
+}
+ul>li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 30px;
+	margin: 10px 0px 0px 3px;
+}
+li:hover{
+	border: none;
+}
+li:hover a{
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+}
